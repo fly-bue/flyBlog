@@ -1,0 +1,23 @@
+{
+  "name": "flyblog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "fly",
+    "email": "phcFly@163.com"
+  },
+  "repository": "/flyblog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog",
+    "eject": "vuepress eject"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/plugin-nprogress": "^1.4.0",
+    "@vuepress/theme-blog": "^2.1.0",
+    "vuepress": "^1.3.1"
+  }
+}
